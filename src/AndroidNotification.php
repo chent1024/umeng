@@ -31,7 +31,7 @@ abstract class AndroidNotification extends UmengNotification {
 
 	// Keys can be set in the body level
 	protected $BODY_KEYS    = array("ticker", "title", "text", "builder_id", "icon", "largeIcon", "img", "play_vibrate", "play_lights", "play_sound", "after_open", "url",
-								    "activity", "custom");
+								    "activity", "custom", 'mipush', 'mi_activity');
 
 	function __construct() {
 		parent::__construct();
