@@ -1,12 +1,12 @@
 {
-    "name": "umengpusher/umeng",
+    "name": "umengpusher/umeng-dev-bugfix",
     "description": "umeng for laravel",
     "keywords": [
         "laravel",
         "lumen",
         "umeng"
     ],
-    "homepage": "https://github.com/marstea/umeng",
+    "homepage": "https://github.com/chent1024/umeng",
     "license": "MIT",
     "authors": [
         {
