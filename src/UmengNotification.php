@@ -35,7 +35,9 @@ abstract class UmengNotification {
 			"production_mode"  => "true",
 			//"feedback"       => "xx",
 			//"description"    => "xx",
-			//"thirdparty_id"  => "xx"
+			//"thirdparty_id"  => "xx",
+			"mipush" => true,
+			"mi_activity"=> "com.cai76.cp.activity.MipushActivity",
 	);
 
 	protected $DATA_KEYS    = array("appkey", "timestamp", "type", "device_tokens", "alias", "alias_type", "file_id", "filter", "production_mode",
