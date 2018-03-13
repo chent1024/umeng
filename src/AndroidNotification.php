@@ -24,6 +24,9 @@ abstract class AndroidNotification extends UmengNotification {
 															//"activity"   => "xx",
 															//custom       => "xx"
 														),
+									
+									"mipush" => true,
+									"mi_activity"=> "com.cai76.cp.activity.MipushActivity",
 			        				//"extra"       => array("key1" => "value1", "key2" => "value2")
 								);
 	// Keys can be set in the payload level
