@@ -58,6 +58,13 @@ abstract class UmengNotification {
 			Log::error("Caught Umeng exception: Please set your app master secret for generating the signature!");
 			throw new UmengException("Please set your app master secret for generating the signature!");
 		}
+
+		//39彩票app推送时更改mi_activity
+		if($this->appMasterSecret == config('umeng.39_android_app_master_secret'))
+		{
+			$this->data['mi_activity'] = 'com.cai39.cp.activity.MipushActivity';
+		}
+
 		$this->checkArrayValues($this->data);
 		return TRUE;
 	}
